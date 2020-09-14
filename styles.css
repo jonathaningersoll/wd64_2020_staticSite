@@ -1,0 +1,208 @@
+body {
+    margin: 0px;
+    background-color: slateblue;
+    color: #fff;
+    font: 12px"Roboto", sans-serif;
+}
+
+#splash {
+    background-image: url(./assets/gradient-violet-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.orange {
+    border-radius: 2px;
+    padding: 10px 40px 10px 40px;
+    font-weight: 600;
+    color: white;
+    background-color: orange;
+    border: none;
+    text-decoration: none;
+}
+
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: black;
+}
+
+/* HEADER AND NAVIGATION */
+#splash header img {
+    height: 40px;
+    padding-left: 20px;
+}
+
+header {
+    display: block;
+    position: fixed;
+    width: 100%;
+    
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+nav {
+    float: right;
+    padding-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+nav li{
+      display: inline-block;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 4px 40px 4px 4px;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+#launch {
+    border: 1.5px solid white;
+    background:none;
+    padding: 4px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+/* SPLASH SECTION */
+
+#splash-content {
+    color: white;
+    font: "Roboto", sans-serif;
+    height: auto;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.4em;
+    padding-bottom: 40px;
+    padding-top: 80px;
+}
+
+#splash-content img {
+    height: 300px;
+}
+
+#splash-content-main {
+    text-align: center;
+    width: 90%;
+    line-height: 2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#featured{
+    background-color: white;
+}
+
+#featured-content {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-align: center;
+    padding: 40px;
+    font-size: 1.2em;
+}
+
+#featured p {
+    font-style: italic;
+}
+
+#featured p:last-child{
+    text-align: right;
+    margin-right: 100px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 40px;
+    text-align: center;
+}
+
+/* ABOUT KAST */
+
+#about {
+    background-image: url(./assets/green-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -20px;
+}
+
+#about-content {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    padding: 60px;
+    font-size: 1.4em;
+    line-height: 2;
+}
+
+#about-content h1 {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+/* TRY KAST */
+
+#try {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 40px;
+    font-size: 1.4em;
+    line-height: 1.5;
+    border-bottom: 60px solid darkslategray;
+}
+
+#try-content {
+    width: 44%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-align: center;
+}
+
+#try h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+#try-content-bottom {
+    text-align: center;
+    padding: 40px;
+}
+
+#vid {
+    width: 100%;
+    text-align: center;
+}
+
+#link {
+    font-size: 0.8em;
+    color: orange;
+    text-decoration: none;
+}
